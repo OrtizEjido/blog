@@ -12,6 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   margin: 2em auto;
+  font-size: 1.75rem;
 }
 
 header {
@@ -24,7 +25,28 @@ header h1 {
   font-size: 5rem;
 }
 
+section.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  flex-basis: 30%;
+}
+
+.two {
+  flex-basis: 30%;
+}
+
+.three {
+  flex-basis: 30%;
+}
+
+.info-header {
+  text-align: center;
+  width: 100%;
+}
+
 footer {
   text-align: center;
-  font-size: 1.75rem;
 }
